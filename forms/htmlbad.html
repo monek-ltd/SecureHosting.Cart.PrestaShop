@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//Dtd HTML 4.01 Transitional//EN" "http://www.w3.org/tr/html4/loose.dtd">
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+	<title>Transaction Complete</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<!-- Bootstrap core CSS -->
+	<link href="https://www.secure-server-hosting.com/secutran/secureforms/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<!-- Bootstrap theme -->
+	<link href="https://www.secure-server-hosting.com/secutran/secureforms/assets/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+<div class="row">&nbsp;</div>
+<div class="row">&nbsp;</div>
+<div class="row">&nbsp;</div>
+<div class="col-md-8 col-md-offset-2">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<center><h4>Transaction Error</h4></center>
+		</div>
+		<div class="panel-body">
+			<div class="alert alert-danger">
+				<p><strong>The transaction failed.</strong></p>
+				<form action="https://www.secure-server-hosting.com/secutran/secuitems.php" method="POST">$posted_fields
+					<p> Please return to the <input type="submit" name="submit" class="btn btn-danger" value="previous page"> to amend the problems below.</p>
+				</form>
+			</div>
+			<div class="well well-lg">
+				<div class="row">
+					<div class="col-md-12">
+						<p><strong>$tranerrdesc</strong></p>
+						<p><strong>$tranerrdetail</strong></p>
+						<p>If you recieved this message during a transaction, it will not have been processed and payment will not have been taken. Details of the error have been logged by our system.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

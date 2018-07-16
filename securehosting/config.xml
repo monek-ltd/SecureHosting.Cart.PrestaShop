@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>securehosting</name>
+            <displayName><![CDATA[SecureHosting Payments Module]]></displayName>
+            <version><![CDATA[0.8]]></version>
+            <description><![CDATA[Accepts payments by credit cards with Secure Hosting ( http://www.securehosting.com )]]></description>
+            <author><![CDATA[Secure Hosting]]></author>
+            <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall>Are you sure you want to delete your details?</confirmUninstall>
+            <is_configurable>1</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>
