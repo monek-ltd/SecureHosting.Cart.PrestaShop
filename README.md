@@ -47,7 +47,7 @@ Troubleshooting
     - You have activated the Advanced Secuitems within your Secure Hosting account but not configured it correctly. Ensure the "Advanced Secuphrase" has been entered as above in step 4
 
 Change Log
----------
+--------
 
 #### Version 0.9.6
 **Date**: _16/07/2018_
